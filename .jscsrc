@@ -1,0 +1,7 @@
+{
+  "preset": "crockford",
+  "maximumLineLength": null,
+  "esnext": true,
+  "disallowSpacesInsideObjectBrackets": null,
+  "validateIndentation": 4
+}

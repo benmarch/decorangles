@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <script src="../jspm_packages/system.js"></script>
+    <script src="../config.js"></script>
+    <script>
+        System.import('test/test.js');
+    </script>
+</head>
+
+<body ng-app="decorangles">
+    <div ng-controller="MyController as ctrl">
+        <my-directive ng-init="ctrl.ctrlCheck()"></my-directive>
+        <compile-test></compile-test>
+    </div>
+</body>
+</html>

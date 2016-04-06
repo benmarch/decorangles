@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "rules": {
+        "strict": 0,
+        "quotes": [2, "single"]
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "jasmine": false,
+        "spyOn": false,
+        "describe": false,
+        "it": false,
+        "beforeEach": false
+    }
+}
