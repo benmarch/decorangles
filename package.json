@@ -1,17 +1,42 @@
 {
     "name": "decorangles",
     "version": "1.0.0",
-    "description": "Pure ES2016 decorators for AngularJS 1.x",
+    "description": "Pure ES-Next decorators for AngularJS 1.x",
     "main": "dist/decorangles.js",
     "scripts": {
+        "build": "babel --out-dir dist src",
         "test": "karma start karma.conf.js",
         "lint": "eslint src test"
     },
+    "files": [
+        "dist",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/benmarch/decorangles.git"
     },
-    "keywords": [],
+    "keywords": [
+        "ecmascript",
+        "es6",
+        "es7",
+        "es2015",
+        "es2016",
+        "es2017",
+        "decorator",
+        "decorators",
+        "esnext",
+        "es-next",
+        "annotation",
+        "annotations",
+        "angular",
+        "angularjs",
+        "ng",
+        "di",
+        "dependency injection"
+    ],
     "author": "Ben March <bmarch89@gmail.com>",
     "license": "MIT",
     "bugs": {
