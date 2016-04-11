@@ -41,7 +41,10 @@
         "webpack": "^1.12.14"
     },
     "jspm": {
-        "main": "src/decorangles.js",
+        "directories": {
+            "lib": "src"
+        },
+        "main": "decorangles.js",
         "format": "esm",
         "dependencies": {
             "angular": "github:angular/bower-angular@^1.5.3"
